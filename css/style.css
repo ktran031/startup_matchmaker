@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+/*HEADER*/
+
+header {
+  background: #000;
+  width: 100%;
+  height: 100px;
+  border-bottom: solid yellow 5px;
+
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  padding:15px 0px 15px 15px;
+  color: yellow;
+}
+
+
+a{
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+ nav ul li {
+  margin: 10px;
+  display: inline;
+}
+
+nav ul{
+margin-left: 165px;
+}
+
+.find {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+/*blockquote*/
+blockquote {
+  background: #C6C6C6;
+  color: black;
+  padding: 20px 0px 20px 70px;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 25px;
+}
+.taste {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.are {
+  border-bottom: solid yellow 5px;
+}
+
+/*section*/
+img {
+  position: relative; 
+   
+}
+
+section {
+  background-image: url("../images/coworking.jpg");
+  background-size: cover;  
+  height: 600px;
+}
+
+section .container {
+  float: right;
+  position: relative; 
+  margin-top: 30px;
+  margin-right: 30px;
+  padding: 20px;
+  width: 400px;
+  height: 450px;
+  background: rgb(237, 237, 237);
+  background: rgba(237, 237, 237, 0.7);
+}
+
+
+img {
+  position: relative; 
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-style: bold;
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+section p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  margin-bottom: 240px;
+}
+
+.button {
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.yellow {
+  
+  background: yellow;
+  color: black;
+}
+
+.gray {
+  background:gray;
+  color:black;
+}
+/*Bottom Area*/
+
+h3{
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+aside p {
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+aside{
+  padding-bottom: 35px;
+  margin: 25px;
+  
+  display: inline-block;
+}
+
+#profile, #developer {
+  border-right: solid gray 1px;
+}
+
+/*Footer*/
+
+footer {
+  padding: 15px 0 15px 15px;
+  background: black;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
